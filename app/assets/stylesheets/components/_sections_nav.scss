@@ -1,0 +1,24 @@
+.sections {
+  font-size: 13px;
+  font-family: $sans-serif;
+  text-align: center;
+}
+
+.sections ul {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid $light-gray;
+}
+
+.sections ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.sections ul li:not(:last-child):hover {
+  background-color: $light-gray;
+}
+
+.sections ul li:last-child:hover {
+  text-decoration: underline;
+}

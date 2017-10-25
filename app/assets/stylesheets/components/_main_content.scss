@@ -1,0 +1,146 @@
+#main {
+  margin-top: 15px;
+}
+
+.firstsection {
+  border-bottom: 1px solid black;
+}
+
+.news h2 {
+  font-size: 23px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.news p {
+  margin-bottom: 10px;
+}
+
+.news ul {
+  list-style: initial;
+  margin-left: 15px;
+  color: black;
+}
+
+.news ul li {
+  margin-bottom: 12px;
+}
+
+.news ul li:last-child {
+  list-style: square;
+  color: $blue;
+}
+
+.news span {
+  position: relative;
+  right: 8px;
+}
+
+.comments {
+  color: blue;
+}
+
+.instruction {
+  color: $gray;
+}
+
+.video h3 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.warning {
+  margin-top: 10px;
+}
+
+.video h1 {
+  color: $gray;
+  margin-top: 1px;
+  margin-bottom: 8px;
+}
+
+table tr td {
+  width: 50%;
+}
+
+hr {
+    color: $light-gray;
+    margin-top: 12px;
+    width: 275px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.tablecol1 h4 {
+  font-size: 11px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.tablecol1 h5 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tablecol1 p {
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.tablecol1 li {
+  font-weight: bold;
+  font-size: 10px;
+  list-style: initial;
+  margin-left: 15px;
+}
+
+.tablecol1 ul {
+  margin-top: 10px;
+}
+
+.input {
+  display: inline;
+  border: 1px solid black;
+  width: 87%;
+  height: 24px;
+  box-sizing: border-box;
+}
+
+.inputbutton {
+  display: inline-block;
+  margin-left: -13px;
+  height: 10px;
+}
+
+.bottomarea p {
+  text-align: left;
+  margin-left: 0px;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.bottomarea p:last-child {
+  font-size: 9px;
+  text-align: center;
+  color: $gray
+}
+
+.bottomarea p:first-child {
+  font-weight: bold;
+}
+
+form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input[value] {
+  text-align: left;
+  padding-left: 5px;
+  color: $gray;
+  font-weight: normal;
+}
