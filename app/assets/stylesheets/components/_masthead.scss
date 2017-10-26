@@ -93,12 +93,12 @@
 	text-decoration: underline;
 }
 
-.masthead-links li:last-child:hover {
-	color: gray;
-}
+// .masthead-links li:last-child:hover {
+// 	color: gray;
+// }
 
-.masthead-links li:last-child:hover span{
-	color: gray;
+.masthead-links li:last-child:hover {
+	background: $light-gray;
 }
 
 .masthead-links li:nth-of-type(5) span {
