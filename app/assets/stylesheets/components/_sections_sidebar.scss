@@ -1,0 +1,18 @@
+
+@media (max-width: 900px) {
+  .sections {
+    display: none;
+  }
+
+  .language-nav {
+    display: none;
+  }
+
+  .right-nav ul li button {
+    display: none;
+  }
+
+  #main {
+    flex-direction: column;
+  }
+}
